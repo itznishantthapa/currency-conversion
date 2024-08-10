@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <div class="amount">
+            <label for="amount-input">Enter Amount</label>
+            <input  id="amount-input" type="text" />
+        </div>
+        <div class="from-to">
+            <p>From</p>
+            <p>To</p>
+        </div>
+        <div class="countries">
+            <div class="country1">
+                <img src="https://flagsapi.com/US/flat/64.png" alt="USD Flag" />
+                <select id="sel1">
+    
+                </select>
+            </div>
+            <div class="arrow"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+            <div class="country2">
+                <img src="https://flagsapi.com/NP/flat/64.png" alt="NPR Flag" />
+                <select id="sel2">
+                </select>
+            </div>
+        </div>
+        <div class="last-wrapper">
+            <span id="equality">1 USD = 100 NPR</span>
+            <button class="button-86" role="button">Get Exchange Rate</button>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

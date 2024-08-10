@@ -1,0 +1,25 @@
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+console.log("hello");
+setTimeout(()=>{
+    console.log(hello);
+},3000);
+
+console.log('hello1');
+console.log('hello1');
+console.log('hello1');
+console.log('hello1');
+console.log('hello1');
+console.log('hello1');
+console.log('hello1');
+console.log('hello1');
+console.log('hello1');
