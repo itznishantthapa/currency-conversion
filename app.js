@@ -66,9 +66,7 @@ selCon2.addEventListener("change", () => {
 });
 
 
-
-
-btn.addEventListener("click",async()=>{
+async function getExchangeRate(){
   let inputValue=document.querySelector("#amount-input");
   let amountValue=inputValue.value;
   console.log("this is amount value",amountValue);
@@ -89,11 +87,15 @@ console.log(selCon1.value, "currency To", selCon2.value);
     let totalAmount=amountValue*(rateTo/rateFrom);
     console.log("Total amount is",totalAmount)
 
+    const firstFive = totalAmount.toString().slice(0,8);
 
 
+    const msg=document.querySelector("#msg");
+    msg.innerText=`${amountValue} ${selCon1.value} = ${firstFive} ${selCon2.value}`;
+}
 
-
-});
+window.onload=getExchangeRate;
+btn.addEventListener("click",getExchangeRate);
 
 
 
