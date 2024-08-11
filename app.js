@@ -1,6 +1,6 @@
 import { countryList } from "./code.js";
 
-const url = `https://api.currencyfreaks.com/v2.0/rates/latest?apikey=3f167a988ebe4817b3ab7440738f4892`
+const url = `https://api.currencyfreaks.com/v2.0/rates/latest?apikey`
 
 
 
